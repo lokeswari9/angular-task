@@ -56,7 +56,7 @@ export class AppComponent implements OnInit {
     if (this.filterExpensiveBeers) {
       this.products = this.products.filter(item => {
         const perLiterPrice = parseFloat(item.articles[0].pricePerUnitText.match(/\((\d+,\d+)\s€\/Liter\)/)[1].replace(',', '.'));
-        return perLiterPrice < 2;
+        return perLiterPrice > 2;
       })
     } else {
       this.http
