@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #82be3c;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo:hover {
+    text-decoration: underline;
+  }
+  
+  .nav {
+    display: flex;
+  }
+
+  .nav-detail {
+    margin-left: 16px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
